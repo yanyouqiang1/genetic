@@ -4,6 +4,8 @@ import java.util.List;
 
 public class MathCalc {
     public double calcFunction(List list) {
-        return 0;
+        Double d = (Double) list.get(0);
+
+        return Math.sin(d);
     }
 }
